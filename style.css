@@ -1,8 +1,4 @@
-/*
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the web page when you refresh in the browser.
-*/
+
 
 body {
   /* Box-model */
@@ -16,13 +12,35 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #333;
+  font-family: 'Dosis', sans-serif;
 
   /* Visual */
   background: #efeee7;
 }
 
+a {
+  transition: 0.5s;
+}
+
+
+a:visited {
+  color: rgb(179, 179, 182);
+
+  }
+a:focus {
+    color: rgb(250, 9, 49);
+  }
+a:active {
+    color: Blue;
+  }
+ a:hover {
+    color: rgb(247, 8, 175);
+
+  }
+
 header {
   background: #d21034;
+ 
 }
 
 h1 {
@@ -35,7 +53,7 @@ h1 {
   font-size: 28px;
 
   /* Typography */
-  color: #eee;
+  color: rgb(247, 238, 244);
   text-align: center;
 
   /* Visual */
@@ -47,7 +65,7 @@ h2 {
 }
 
 a {
-  color: #d21034;
+  color: #837d7e;
 }
 
 .container {
@@ -74,8 +92,8 @@ a {
 
 #bio-image {
   /* Box-model */
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 300px;
 
   /* Positioning */
 
