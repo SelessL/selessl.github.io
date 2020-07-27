@@ -18,6 +18,10 @@ body {
   background: #efeee7;
 }
 
+.navbar-text {
+  font-size: 14px;
+}
+
 a {
   transition: 0.5s;
 }
